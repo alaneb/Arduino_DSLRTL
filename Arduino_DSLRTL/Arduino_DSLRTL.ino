@@ -8,10 +8,10 @@
 // 				2Dorks
 //
 // Date			8/23/14 6:12 PM
-// Version		version
+// Version		<#version#>
 // 
 // Copyright	© Alan, 2014
-// License		license
+// License		<#license#>
 //
 // See			ReadMe.txt for references
 //
@@ -36,9 +36,6 @@ const int switchDown = 6;
 const int selectButton = 8;
 int hourVal = 1;
 int intervalVal = 1;
-int newVal1 = hourVal;
-int newVal2 = intervalVal;
-
 
 void buttonPress(int upPress, int downPress, int selectPress)
 {
@@ -47,28 +44,28 @@ void buttonPress(int upPress, int downPress, int selectPress)
         lcd.setCursor(0, 1);
         if (upPress == 1 && downPress == 0)
         {
-            if (newVal1 < 24)
+            if (hourVal < 24)
             {
-                newVal1++;
-                lcd.print(newVal1);
+                hourVal++;
+                lcd.print(hourVal);
             }
             else
             {
-                lcd.print(newVal1);
+                lcd.print(hourVal);
             }
         }
         else if (downPress == 1 && upPress == 0)
         {
-            if (newVal1 > 1)
+            if (hourVal > 1)
             {
-                newVal1--;
-                lcd.print(newVal1);
+                hourVal--;
+                lcd.print(hourVal);
             }
             else
             {
-                lcd.print(newVal1);
+                lcd.print(hourVal);
             }
-            if (newVal1 < 10)
+            if (hourVal < 10)
             {
                 lcd.setCursor(1, 1);
                 lcd.print(" ");
@@ -83,34 +80,34 @@ void buttonPress(int upPress, int downPress, int selectPress)
         lcd.setCursor(0, 3);
         if (upPress == 1 && downPress == 0)
         {
-            if (newVal2 < 300)
+            if (intervalVal < 300)
             {
-                newVal2++;
-                lcd.print(newVal2);
+                intervalVal++;
+                lcd.print(intervalVal);
             }
             else
             {
-                lcd.print(newVal2);
+                lcd.print(intervalVal);
             }
         }
         else if (downPress == 1 && upPress == 0)
         {
-            if (newVal2 > 1)
+            if (intervalVal > 1)
             {
-                newVal2--;
-                lcd.print(newVal2);
+                intervalVal--;
+                lcd.print(intervalVal);
             }
             else
             {
-                lcd.print(newVal2);
+                lcd.print(intervalVal);
             }
-            if (newVal2 < 100)
+            if (intervalVal < 100)
             {
                 lcd.setCursor(2, 3);
                 lcd.print(" ");
                 lcd.setCursor(0, 3);
             }
-            if (newVal2 < 10)
+            if (intervalVal < 10)
             {
                 lcd.setCursor(1, 3);
                 lcd.print(" ");
