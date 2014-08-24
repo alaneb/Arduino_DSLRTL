@@ -12,4 +12,4 @@ Builds/main.o: main.cpp \
   Arduino_DSLRTL.ino \
   /Applications/Arduino.app/Contents/Resources/Java/libraries/LiquidCrystal/LiquidCrystal.h \
   /Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/cores/arduino/Print.h \
-  /Users/alan/Documents/Arduino/libraries/Button/Button.h
+  /Users/marklange/Documents/Arduino/libraries/Button/Button.h

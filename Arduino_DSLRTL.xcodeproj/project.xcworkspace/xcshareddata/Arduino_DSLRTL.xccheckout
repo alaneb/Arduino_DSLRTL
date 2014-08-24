@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9743581F-F121-40ED-B1EE-3B81BB5FBDDB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Arduino_DSLRTL</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1618D123-96C8-41E4-8DDB-DCC353B7606A</key>
+		<string>ssh://github.com/alaneb/Arduino_DSLRTL.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Arduino_DSLRTL.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1618D123-96C8-41E4-8DDB-DCC353B7606A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/alaneb/Arduino_DSLRTL.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1618D123-96C8-41E4-8DDB-DCC353B7606A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1618D123-96C8-41E4-8DDB-DCC353B7606A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Arduino_DSLRTL</string>
+		</dict>
+	</array>
+</dict>
+</plist>
