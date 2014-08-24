@@ -1,17 +1,17 @@
 // 
 // Arduino_DSLRTL 
 //
-// Time Lapse Controller using Arduino and Canon D400
+// Time Lapse Controller using Arduino and Canon EOS 400D
 // Developed with [embedXcode](http://embedXcode.weebly.com)
 // 
 // Author	 	Alan
 // 				2Dorks
 //
 // Date			8/23/14 6:12 PM
-// Version		<#version#>
+// Version		version
 // 
 // Copyright	© Alan, 2014
-// License		<#license#>
+// License		license
 //
 // See			ReadMe.txt for references
 //
